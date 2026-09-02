@@ -1,0 +1,14 @@
+# ==========================================================
+# requirements.txt
+# This file lists the Python libraries needed to run the
+# project.
+#
+# Install command:
+#   pip install -r requirements.txt
+# ==========================================================
+
+langchain>=0.2.0            # Core LangChain framework
+langchain-openai>=0.1.0     # OpenAI models integration for LangChain
+langchain-community>=0.2.0  # Extra community tools/loaders
+python-dotenv>=1.0.0        # Loads environment variables from a .env file
+pydantic>=2.0.0              # Structured output / data validation
